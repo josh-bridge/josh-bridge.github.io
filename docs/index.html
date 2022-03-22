@@ -1,22 +1,59 @@
+<!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <style type="text/css">
       @import url("fonts/NotoSans-Bold.ttf");
 
-      body {
+      html {
         background: black;
       }
 
-      h1 {
-        position: relative;
-        top: 48vh;
-        color: #222;
+      body {
+        background: black;
+        height: 100vh;
+        overflow: hidden;
+        cursor: default;
+      }
+
+      #container {
+        position: absolute;
+        top: 50%;
+        margin-top: -25em;
+        width: 100%;
         text-align: center;
+      }
+
+      p {
+        margin: 0.5em;
+        font-size: 2em;
+        font-weight: bold;
+        color: #101010;
         font-family: 'Noto Sans', sans-serif;
+      }
+
+      #english {
+        margin: 0.9em;
+        color: #1D1D1D;
       }
     </style>
   </head>
   <body>
-    <h1>Coming Soon</h1>
+    <div id="container">
+      <p id="thai">เร็ว ๆ นี้</p>
+      <p id="ukranian">незабаром</p>
+      <p id="french">Bientôt Disponible</p>
+      <p id="bengali">শীঘ্রই আসছে</p>
+      <p id="afrikaans">Kom Binnekort</p>
+      <p id="japanese">近日公開</p>
+      <p id="english">Coming Soon</p>
+      <p id="spanish">Próximamente</p>
+      <p id="korean">곧 온다</p>
+      <p id="welsh">Dod Yn Fuan</p>
+      <p id="nepali">आउदैछ</p>
+      <p id="lithuanian">Netrukus</p>
+      <p id="maori">Ka Tata Mai</p>
+      <p id="chinese-trad">快來了</p>
+    </div>
   </body>
 </html>
